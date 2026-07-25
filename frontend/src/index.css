@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background: #f7f7fb;
+  margin: 0;
+}
+
+.page {
+  max-width: 480px;
+  margin: 40px auto;
+  padding: 24px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.prediction-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.prediction-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.prediction-form input,
+.prediction-form select {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.prediction-form button {
+  margin-top: 8px;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #2b6cb0;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.prediction-form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.form-error {
+  color: #c0392b;
+  font-size: 14px;
+}
+
+.predicted-price {
+  font-size: 32px;
+  font-weight: 700;
+  color: #2b6cb0;
+}

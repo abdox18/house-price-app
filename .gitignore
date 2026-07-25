@@ -1,0 +1,25 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+dist/
+
+# Env files
+.env
+
+# Logs
+*.log
+
+# Raw dataset (large — download instructions are in the README)
+notebooks/data/*.csv
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+backend/models/house_price.pkl
+notebooks/house_price.pkl
